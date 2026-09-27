@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Entity
 @Table(name = "PRODUCTS")
-@Data // Anotación de Lombok que genera Getters, Setters y Constructores
+@Data 
 public class Product {
     
     @Id
